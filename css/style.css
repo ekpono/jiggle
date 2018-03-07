@@ -1,0 +1,91 @@
+body {
+    font-size: 14px;
+   margin: auto;
+    padding: auto;
+  }
+
+
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+      
+    
+    }
+ .link-text li {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 10px;
+}
+
+div ul {
+  margin-top: 50px;
+}
+.link-text a {
+  color: #000;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+.active {
+  color: #000;
+}
+
+ .container .title {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+ .active{
+   color: blue;
+ }
+hr {
+  border: 5px;
+  width: 60px;
+  height: 2px;
+ background-color: blue;
+ margin-bottom: 50px;
+}
+
+article {
+margin: 40px 30px;
+}
+
+h5, p {
+  font-family:  'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h5 {
+  font-weight: bold;
+}
+
+
+.footerdiv {
+  width: 100%;
+  background-color: #ececec;
+ }
+.footerdiv .row {
+  width: 80%;
+  margin: 0 auto;
+}
+
+  .pricing-header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+  
+  .border-top { border-top: 1px solid #e5e5e5; }
+  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
